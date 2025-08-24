@@ -1,0 +1,44 @@
+/* Edit according to your design preferences */
+
+/* --------------fonts ------------------------*/
+/*--------------- resets-----------------------*/
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a [class]{
+  text-decoration: none;
+}
+ol,ul {
+ list-style: none;
+}
+/* image */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/*-------------- custom variables------------- */
+:root {
+    --primary-clr: #072cff; 
+    --accent-clr: #4aff5f;
+    --black:#000;
+    --white: #ffffff;
+       
+}
+/*-------------- general styles ----------------*/
+body {
+    /* font family,line-height */
+    overflow-x: hidden;
+
+}
+section {
+
+    margin-bottom: 50px;
+    overflow-x: hidden;
+}
+/*------------- custom styles ---------------*/
